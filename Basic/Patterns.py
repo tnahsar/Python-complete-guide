@@ -23,7 +23,6 @@ print(" ")
 print(" ")
 
 # Problem — print X Pattern with Stars
-# Output:
 # *   *
 #  * *
 #   *
