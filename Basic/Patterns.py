@@ -1,3 +1,4 @@
+# Problem — Print Solid Diamond Pattern
 # Output:
 #     *
 #    ***
@@ -21,6 +22,7 @@ for i in range(7, 0, -2):
 print(" ")
 print(" ")
 
+# Problem — print X Pattern with Stars
 # Output:
 # *   *
 #  * *
@@ -40,7 +42,7 @@ for i in range(1,4,+2):
 print(" ")
 print(" ")
 
-# Output:
+# Problem - Print Hollow Diamond
 #     *
 #    * *
 #   *   *
