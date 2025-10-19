@@ -35,6 +35,7 @@ for i in range(9, 1, -2):
     a += 1
 b = 4
 print(" " * b + "*")
+
 b -= 1
 for i in range(3, 10, +2):
     print(" " * b + "*" * i)
