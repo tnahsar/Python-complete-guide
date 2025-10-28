@@ -19,6 +19,9 @@ for d in my_list:
         min = min
 print(f"minimum number from the list is: {min}")
 
+print()
+print()
+
 
 # Problem 17:
 # Remove duplicate elements from a list.
