@@ -78,3 +78,15 @@ Count the frequency of each element in a list and display the result (hint: dict
 Problem 20:
 Convert a list of tuples into a dictionary.
 Example: [("name", "Prashant"), ("age", 25)] → {"name": "Prashant", "age": 25}
+
+
+# Section 5: loops, lists, sets, and indexing — perfect practice for real-world coding logic!
+
+Problem 21: Accept a list of integers from the user.
+
+
+Problem 22: Remove all duplicates.
+
+Problem 23: Sort the unique numbers in ascending order.
+
+Problem 24: Print the 2nd largest unique number.

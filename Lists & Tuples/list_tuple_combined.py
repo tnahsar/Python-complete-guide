@@ -70,3 +70,17 @@ my_dict = {}
 for t in my_list:
     my_dict[t[0]] = t[1]
 print(my_dict)
+
+
+# Problem 21: Accept a list of integers from the user. Remove all duplicates.
+# Sort the unique numbers in ascending order. Print the 2nd largest unique number.
+user_input = input("Enter a list of integers, separated by spaces: ")
+my_list = list(map(int,user_input.split()))
+print(f"list of user input integers is: {my_list}")
+unique_list = list(set(my_list))
+print(f"Unique list is: {unique_list}")
+unique_list.sort()
+print(f"Sorted (asc) unquie list is: {unique_list}")
+len_unique_list = len(unique_list)
+print(len_unique_list)
+print(f"2nd largest unique number from the list is: {unique_list[len_unique_list-2]}")
