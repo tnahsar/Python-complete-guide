@@ -46,7 +46,7 @@ elif num1 < num2:
 else:
     print(f"{num1} is equal to {num2}");
 
-# Problem: Check if a word is a palindrome
+# Problem 2: Check if a word is a palindrome
 # A palindrome is a word that reads the same backward and forward.
 # Examples: madam, level, racecar.
 # Ask the user to enter a word.
@@ -59,31 +59,3 @@ if string == reverse_string:
     print("Word is palindrome")
 else:
     print("Word is not palindrome")
-
-
-# Problem: Slicing in Python is a way to extract a portion (or a subsequence) of a sequence like a list, string, or 
-# tuple by specifying a start index, stop index, and an optional step.
-# General syntax for slicing is:sequence[start:stop:step]
-
-# start: The index where the slice begins (inclusive). If omitted, it defaults to the beginning of the sequence (0).
-# stop: The index where the slice ends (exclusive). If omitted, it defaults to the end of the sequence.
-# step: How many steps to move forward between elements. Defaults to 1.
-
-# Slicing Examples:
-# 1. Basic slicing: get characters from index 1 to 4 (stop index is exclusive)
-string = str(input("Enter a string for slicing examples: "));
-print(f"get characters from index 1 to 4: {string[1:4]}")
-
-# 2. Slice from the start to a specific index
-print(f"Slice from the start to a specific index: {string[:4]}")
-
-# 3. Slice from a specific index to the end
-print(f"Slice from a specific index to the end: {string[3:]}")
-
-# 4. Skip characters using step
-print(f"Skip characters using step: {string[::2]}")
-# Example consider string = Python then output would be Pto
-# From start to end, take every 2nd character (`'P'`, `'t'`, `'o'`)
-
-# 6. Reverse a substring
-print(f"Reverse a substring: {string[1:5][::-1]}")

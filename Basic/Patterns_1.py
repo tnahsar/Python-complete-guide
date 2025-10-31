@@ -7,9 +7,8 @@
 for i in range(1, 6):
     print("*" * i)
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Output:
 # *****
@@ -20,9 +19,8 @@ print(" ")
 for i in range(5, 0, -1):
     print("*" * i)
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Output:
 # 1
@@ -36,9 +34,8 @@ for i in range(1, 6):
         output.append(i)
     print(*output)  # * is called the unpacking operator or splat operator. It takes an iterable (such as a list, tuple, or set) and "unpacks" it, passing each individual element as a separate argument to the function.
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Output:
 #     *

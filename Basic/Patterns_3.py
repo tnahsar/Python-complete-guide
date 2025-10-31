@@ -18,9 +18,8 @@ for i in range(7, 0, -2):
     print(" " * k, "*" * i, " " * k)
     k += 1
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Problem — print X Pattern with Stars
 # *   *
@@ -38,8 +37,8 @@ for i in range(1,4,+2):
     print(" " * k + "*" + " " * i + "*")
     k -= 1
 
-print(" ")
-print(" ")
+print()
+print()
 
 # Problem - Print Hollow Diamond
 #     *

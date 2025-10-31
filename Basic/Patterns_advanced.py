@@ -16,9 +16,8 @@ for i in range(4, 0, -1):
     print("*" * i + " " * j + "*" * i)
     j += 2
 
-print(" ")
-print(" ")
-
+print()
+print()
 
 # Problem: Hourglass Pattern (Solid and Hollow Versions)
 # *********
@@ -42,9 +41,8 @@ for i in range(3, 10, +2):
     print(" " * b + "*" * i)
     b -= 1
 
-print(" ")
-print(" ")
-
+print()
+print()
 
 # Problem: Floyd’s Triangle (It is a right-angled triangular array of natural numbers)
 # 1
@@ -58,9 +56,8 @@ for i in range(1, 5):
         k += 1
     print()
 
-print(" ")
-print(" ")
-
+print()
+print()
 
 # Problem: Pascal’s Triangle (Logic-based, not formula-heavy)
 #      1
@@ -81,7 +78,4 @@ rows = [" ".join(map(str, r)) for r in triangle]
 maxw = max((len(r) for r in rows), default=0)
 for s in rows:
     print(s.center(maxw))
-
-print(" ")
-print(" ")
 

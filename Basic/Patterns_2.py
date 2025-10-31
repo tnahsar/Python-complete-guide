@@ -9,9 +9,8 @@ for i in range(1, 10, +2):
     print(" " * j + "*" * i + " " * j) 
     j -= 1
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Output:
 # *********
@@ -24,9 +23,8 @@ for i in range(9, 0, -2):
     print(" " * j + "*" * i + " " * j) 
     j += 1
 
-
-print(" ")
-print(" ")
+print()
+print()
 
 # Output:
 # *****
@@ -40,10 +38,8 @@ for i in range(6, 1, -1):
     else:
         print("*" + " " * 3 + "*")
 
-
-print(" ")
-print(" ")
-
+print()
+print()
 
 # Output:
 # *
@@ -57,10 +53,8 @@ for i in range(1, 6):
     else:
         print("*" * i)
 
-
-print(" ")
-print(" ")
-
+print()
+print()
 
 # Output:
 #     *

@@ -1,4 +1,4 @@
-# Problem 19:
+# Problem 1:
 # Find the largest and smallest number in a list without using max() or min() (use loops).
 my_list = [1,5,10,8,3,2]
 max = 0
@@ -22,16 +22,16 @@ print(f"minimum number from the list is: {min}")
 print()
 print()
 
-
-# Problem 20:
+# Problem 2:
 # Remove duplicate elements from a list.
 my_list = [1,2,5,6,2,1,3,4,5]
 new_list = list(set(my_list))
 print(new_list)
 
+print()
+print()
 
-
-# Problem 21:
+# Problem 3:
 # Given two lists, find the common elements.
 my_list1 = [1,2,3,4,5]
 my_list2 = [3,4,5,6,7]
@@ -47,7 +47,7 @@ print(f"Common elements are: {common_elements}")
 print()
 print()
 
-# Problem 22:
+# Problem 4:
 # Count the frequency of each element in a list and display the result (hint: dictionary or nested loop).
 my_list = [1,3,4,3,2,4,5,6,23,1,3,9]
 
@@ -62,7 +62,7 @@ print(frequency)
 print()
 print()
 
-# Problem 23:
+# Problem 5:
 # Convert a list of tuples into a dictionary.
 # Example: [("name", "Prashant"), ("age", 25)] → {"name": "Prashant", "age": 25}
 my_list = [(1,2), ('a','b')]
@@ -74,7 +74,7 @@ print(my_dict)
 print()
 print()
 
-# Problem 24: Accept a list of integers from the user. Remove all duplicates.
+# Problem 6: Accept a list of integers from the user. Remove all duplicates.
 # Sort the unique numbers in ascending order. Print the 2nd largest unique number.
 user_input = input("Enter a list of integers, separated by spaces: ")
 my_list = list(map(int,user_input.split()))
