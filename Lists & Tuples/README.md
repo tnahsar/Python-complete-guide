@@ -79,6 +79,28 @@ Perform slicing on the tuple (e.g., first 3 elements, last 2 elements).
 Problem 6:
 Ask user for 3 numbers and store them as a tuple. Then unpack the tuple into 3 separate variables and print them individually.
 
+# Section 2: Tuple Mastery (Unpacking, Nesting, Swapping)
+
+Concept:
+- Tuple Unpacking: Extracting values directly into variables
+- Tuple Packing: Grouping multiple values together
+- Swapping: Easily done using tuple unpacking
+
+Problem 1: Tuple Unpacking - 
+Unpack a tuple (name, age, city) into three variables and print them.
+
+Problem 2: Swapping Without Temp Variable - 
+Swap values of two variables using tuple unpacking.
+
+Problem 3: Nested Tuple Access - 
+Given a tuple with nested data, access specific elements from it.
+
+Problem 4: Returning Multiple Values -
+Write a function that returns multiple values as a tuple.
+
+Problem 5: Tuple of Tuples to List - 
+Convert a tuple of tuples into a single flattened list.
+
 # Section 6: Logical Challenges (Lists + Tuples Combined)
 Problem 1:
 Find the largest and smallest number in a list without using max() or min() (use loops).
